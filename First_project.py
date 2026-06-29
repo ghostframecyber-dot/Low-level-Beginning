@@ -36,7 +36,19 @@ else:
     print("You are not fit")
 
 #question 3
-#
-#
+#You can make a simple “My Cyber Profile” program:
+#store your name,
+#store your age,
+#store your height,
+#store whether you are learning cybersecurity,
+#print everything out cleanly.
 
+name = "Mr Frame"
+age = 15
+height = 5.9
+is_learning_cybersecurity = "True"
 
+print(f"You are {name}")
+print(f"And you are {age}")
+print(f"Your height is {height}")
+print(f"And you want to learn {is_learning_cybersecurity}")
