@@ -1,0 +1,58 @@
+   0.044197522s  INFO prepare_target{force=false package_id=my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning) target="my_learning"}: cargo::core::compiler::fingerprint: fingerprint error for my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning)/Check { test: false }/TargetInner { name: "my_learning", doc: true, ..: with_path("/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning/src/main.rs", Edition2024) }
+   0.044254874s  INFO prepare_target{force=false package_id=my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning) target="my_learning"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning/target/debug/.fingerprint/my_learning-d5a19bf5b21576cf/bin-my_learning`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:59:16
+  17: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:360:3
+  18: <unknown>
+   0.257438343s  INFO prepare_target{force=false package_id=my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning) target="my_learning"}: cargo::core::compiler::fingerprint: fingerprint error for my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning)/Check { test: true }/TargetInner { name: "my_learning", doc: true, ..: with_path("/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning/src/main.rs", Edition2024) }
+   0.257479756s  INFO prepare_target{force=false package_id=my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning) target="my_learning"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning/target/debug/.fingerprint/my_learning-8ae21b2b565e203d/test-bin-my_learning`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:59:16
+  17: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:360:3
+  18: <unknown>
+    Checking my_learning v0.1.0 (/home/cyberghostframe/Documents/low-level Beginning/Low-level-Beginning/my_learning)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.39s

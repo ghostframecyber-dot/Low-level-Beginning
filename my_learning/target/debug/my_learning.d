@@ -1,0 +1,1 @@
+/home/cyberghostframe/Documents/low-level\ Beginning/Low-level-Beginning/my_learning/target/debug/my_learning: /home/cyberghostframe/Documents/low-level\ Beginning/Low-level-Beginning/my_learning/src/main.rs
